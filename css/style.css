@@ -2,12 +2,15 @@ body {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
 }
 
-p {
-    font-size: 14px;
-}
+
 
 #my-profile {
     text-align: center;
+}
+
+p,
+#contacts {
+    font-size: 14px;
 }
 
 .header {
