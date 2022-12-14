@@ -1,60 +1,99 @@
-body {
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-h4 {
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
     text-decoration: underline;
+}
+
+p {
+    text-indent: 25px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #my-profile {
     text-align: center;
 }
 
-p,
-ul {
-    font-size: 14px;
-}
-
-.header {
-    height: 50px;
-    background-color: #aacdf5
-}
-
 .foto-avatar {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     padding-top: 10px;
 }
 
 .name-profile {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 200;
     text-align: center;
 }
 
-.user-name {
-    font-size: 24px;
-    text-align: center;
+.header {
+    height: 65px;
+    background-color: #7cb7fa
 }
 
-li {
-    list-style-type: circle;
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #ffffff
 }
 
 .footer {
-    text-align: center;
-    height: 35px;
-    background: #aacdf5;
-    font-size: 12px;
+    min-height: 65px;
+    padding: 0 20px;
+    background: #7cb7fa;
+    color: #ffffff;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    color: rgb(95, 124, 102);
+    margin: 0 auto;
 }
 
-.container {
-    padding: 20px;
+.github {
+    text-decoration: none;
+    line-height: 45px;
 }
 
-p {
-    text-indent: 25px;
+.git-link {
+    position: relative;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url('../assent/svg/rss.svg');
 }
