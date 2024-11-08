@@ -58,7 +58,7 @@ multiply(1, 1)
 
 #### Project link
 
-[My CV](https://volasau.github.io/rsschool-cv/)
+[My CV](https://volasau.github.io/rsschool-cv/cv)
 
 ---
 
